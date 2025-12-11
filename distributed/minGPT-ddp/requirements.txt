@@ -4,3 +4,4 @@ boto3
 hydra-core
 requests
 aiohttp
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
