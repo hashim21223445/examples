@@ -3,3 +3,4 @@ sphinx
 # PyTorch Theme
 -e git+https://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx-panels
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
